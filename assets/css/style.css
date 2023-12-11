@@ -1,0 +1,188 @@
+/* Seletor de tag */
+body {
+    background-color: 	#DCDCDC;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Seletor de id (#) */
+#login {
+    background-color: rgba(235, 235, 235, 0.727) ;
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+
+/* Seletor de class (.) */
+.login {
+    width: 100%;
+    font-size: 16pt;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    
+}
+a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(63, 63, 63);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: rgb(63, 63, 63);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+
+/* Seletor de propriedade */
+input[type="submit"], input[type="reset"] {
+    width: 40%;
+    color: black;
+    background-color: azure;
+    font-size: 14pt;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 0px;
+    border-style: solid;
+    border-width: 1px;
+    transition: 0.3s;
+
+    
+}
+
+/* Usando eventos CSS */
+input[type="submit"]:hover, input[type="reset"]:hover {
+    width: 37%;
+    font-size: 14pt;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: 0.3s;
+    
+}
+
+#login-fields {
+    text-align: left;
+    margin: 0px 30px 0px 30px;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+.exit {
+    margin-left: 215px;
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    background-color: #f44336;
+    color: white;
+}
+
+.exit:hover {
+    
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+    
+}
+
+.central{
+    margin-left: 215px;
+}
+/* style.css */
+
+/* Estilos gerais para o formulário */
+form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilos para as células da tabela */
+td {
+    padding: 10px;
+}
+
+/* Estilos para os campos de entrada */
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="number"],
+input[type="tel"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Estilos para os campos de arquivo */
+input[type="file"] {
+    margin-top: 10px;
+}
+
+/* Estilos para os botões */
+input[type="submit"],
+input[type="reset"],
+button {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Estilos específicos para o botão "Salvar" */
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+}
+
+/* Estilos específicos para o botão "Limpar" */
+input[type="reset"] {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Estilos para os campos de rádio e checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Estilos para a tabela e títulos */
+table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+h1, h3 {
+    color: #333;
+}
+
+/* Estilos para as linhas horizontais */
+hr {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+
